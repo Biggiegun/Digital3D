@@ -11,24 +11,24 @@
 </head>
 
 <body>
+    <header class="miBorde" id="cabecera">
+        <img src="imagenes/logo.png" />
+    </header>
     <main>
-        <header class="miBorde">
-            <img src="imagenes/logo.png" />
-        </header>
-        <nav class="miBorde">
-            <a href="index.html" title="CEO">CEO</a>
+        <nav class="miBorde" id="enlaces">
+            <a href="index.html" title="CEO" class="active">CEO</a>
             <a href="nuestra_empresa.html" title="Nuestra Empresa">Nuestra Empresa</a>
             <a href="#">Cotizador</a>
         </nav>
-        <section>
+        <section id="sectQuienSoy">
             <article class="miBorde">
                 <img src="imagenes/unnamed.jpg" />
             </article>
-            <article class="miBorde">
-                <h1>Hola, soy <i>Carlos David Pérez</i></h1>
-                <small>Y SOY UN DISEÑADOR GRÁFICO</small>
+            <article class="miBorde" id="art_soy">
+                <h1 id="titulo_Profesion">Hola, soy <i>Carlos David Pérez</i></h1>
+                <small id="profesion">Y SOY UN DISEÑADOR GRÁFICO</small>
                 <!--<hr> crea una línea en la página-->
-                <hr>
+                <hr id="soy_id">
                 <p>¡Hola! Si estás aquí, es porque quieres saber un poco más sobre mí, por eso, te voy a contar un poco
                     quién soy, a qué me dedico, y cómo te puedo ayudar.</p>
                 <p>Nací en Barcelona capital, aunque he vivido toda la vida fuera pero muy cerca de ella. Me gusta tener
@@ -44,9 +44,9 @@
                     a algo que realmente me gustara.</p>
             </article>
         </section>
-        <section class="miBorde">
+        <section class="miBorde" id="que_hago">
             <h1>¿A qué me dedico?</h1>
-            <hr>
+            <hr id="a_que_me_dedico">
             <p>Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un trabajo que
                 me encanta y que me permite disfrutar, por fin,
                 de pasar horas y horas delante del ordenador, cosa que nunca antes me había sucedido.</p>
@@ -59,8 +59,9 @@
                 web y deciden contar conmigo para crear las webs de sus clientes. Sea cual sea tu caso, no dudes en
                 contactarme.</p>
         </section>
-        <section class="miBorde">
+        <section class="miBorde" id="como_puedo_ayudarte">
             <h1>¿Cómo puedo ayudarte?</h1>
+            <section id="servicios">
             <article class="miBorde">
                 <h2>Diseño Litográfico</h2>
                 <p>Nuestros servicios profesionales enfocados al diseño e impresión litográfica, nuestra maquinaria,
@@ -68,39 +69,48 @@
                     con altos estándares de calidad.</p>
                 <button>Ver Servicio</button>
             </article>
-            <article class="miBorde">
+            <article class="miBorde bordeArticulo">
                 <h2>Diseño de Tienda Online</h2>
                 <p>Te creo y diseño una tienda online completamente funcional con WordPress y WooCommerce para que
                     puedas comenzar a vender tus productos. Da igual que tenga pocos o miles de productos.</p>
                 <button>Ver Servicio</button>
             </article>
-            <article class="miBorde">
+            <article class="miBorde bordeArticulo">
                 <h2>Mantenimiento Web</h2>
                 <p>Me encargo de tener tu web hecha con WordPress al día y sin problemas, manteniéndola actualizada,
                     optimizada, creando copias de seguridad, solucionando los problemas que vayan surgiendo, etc.></p>
                 <button>Ver Servicio</button>
             </article>
+            </section>  
         </section>
-        <section class="miBorde">
-            <h2>Herramientas de mi dominio</h2>
-            <article class="miBorde">
-                <h3>photoshop</h3>
-                <img src="imagenes/Adobe_Photoshop_CS5_icon.png" class="miWidth">
-            </article>
-            <article class="miBorde">
-                <h3>Illustrator</h3>
-                <img src="imagenes/200px-Illustrator_CC_icon.png" class="miWidth">
-            </article>
-            <article class="miBorde">
-                <h3>corelDraw</h3>
-                <img src="imagenes/corel.png" class="miWidth">
-            </article>
+        <section class="miBorde" id="herramientas">
+            <h1>Herramientas de mi dominio</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Photoshop</th>
+                        <th>Illustrator</th>
+                        <th>Corel Draw</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="imagenes/Adobe_Photoshop_CS5_icon.png" class="miWidth">
+                        </td>
+                        <td><img src="imagenes/200px-Illustrator_CC_icon.png" class="miWidth">
+                        </td>
+                        <td><img src="imagenes/corel.png" class="miWidth">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-        <footer class="miBorde">
-            <p>Copyright © 2020 | Medellín - Antioquia, Colombia | <a href="nuestra_empresa.html" title="Nuestra Empresa">Nuestra Empresa</a> | <a href="#">Contacto</a></p>
-        </footer>
     </main>
+    <footer class="miBorde" id="pie_de_pagina">
+        <p>Copyright © 2020 | Medellín - <a href="https://www.antioquia.gov.co/" target="target">Antioquia</a>, Colombia
+            | <a href="nuestra_empresa.html" title="Nuestra Empresa">Nuestra Empresa</a> | <a href="#">Contacto</a></p>
+    </footer>
+
 </body>
 
 </html>
-

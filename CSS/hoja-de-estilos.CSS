@@ -1,7 +1,104 @@
+/*etiqueta{}*/
+body{
+    padding:20px 10px 5px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*.class{}*/
 .miBorde{
     border: 1px solid darkgoldenrod;
     padding: 15px;
 }
 .miWidth{
     width:200px;
+}
+/*#id{}*/
+#cabecera{
+    text-align: center;
+}
+#enlaces{
+    text-align: center;
+}
+#enlaces a{
+    display: inline-block;
+    background-color: lightblue;
+    color: #000000;
+    padding: 0px 20px 0px 20px; 
+    /* text decorate: decorar, modificar características del texto*/   
+    text-decoration: none;
+    width: 15%;
+    border-radius: 10px;
+}
+/* evento: hover - evento que se muestra cuando se pasa el puntero sobre el ítem*/
+#enlaces a:hover{
+    color:white;
+    background-color: orange;
+}
+/* evento: active - evento que se muestra al presionar un ítem (botón)*/
+#enlaces a:active{
+    color: #000000;
+}
+#enlaces .active{
+    background-color: peachpuff;
+}
+#sectQuienSoy {
+/* display flex!!! ajusta contenido en una caja. solo aplica a etiqueta padre*/
+    display: flex;
+}
+#sectQuienSoy #titulo_Profesion{
+    margin-bottom: 0px;
+}
+#sectQuienSoy #profesion{
+    font-size: 10px;
+}
+#sectQuienSoy #art_soy{
+    text-align: justify;
+}
+#sectQuienSoy #soy_id{
+    background-color: black;
+    width: 50%;
+    height: 1px;
+    border-radius: 50%;
+    margin-left: 0px;
+    transform:rotate(1deg);
+}
+#que_hago{
+    color:white;
+    background-color: #6fa8dc;
+    text-align: center;
+}
+#a_que_me_dedico{
+    background-color: white;
+    width: 50%;
+    height: 2px;
+    border-radius: 50%;
+    transform:rotate(1deg);
+}
+#como_puedo_ayudarte h1{
+    text-align: center;
+}
+#como_puedo_ayudarte #servicios{
+    justify-content: space-around;
+    display:flex;
+}
+#como_puedo_ayudarte #servicios article{
+    background-color: #ff9800;
+    color: white;
+    margin: 1px;
+}
+#como_puedo_ayudarte #servicios .bordeArticulo{
+    margin-left: 15px;
+}
+#como_puedo_ayudarte #servicios article p{
+    text-align: justify;
+}
+#herramientas {
+    color: white;
+    text-align: center;
+    background-color: #6fa8dc;
+}
+#herramientas table{
+    color: black;
+}
+#pie_de_pagina{
+    text-align: center;
 }
