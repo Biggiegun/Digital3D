@@ -9,7 +9,7 @@ body{
     padding: 15px;
 }
 .miWidth{
-    width:200px;
+    width:180px;
 }
 /*#id{}*/
 #cabecera{
@@ -55,7 +55,7 @@ body{
 }
 #sectQuienSoy #soy_id{
     background-color: black;
-    width: 50%;
+    width: 30%;
     height: 1px;
     border-radius: 50%;
     margin-left: 0px;
@@ -68,7 +68,7 @@ body{
 }
 #a_que_me_dedico{
     background-color: white;
-    width: 50%;
+    width: 30%;
     height: 2px;
     border-radius: 50%;
     transform:rotate(1deg);
@@ -95,10 +95,74 @@ body{
     color: white;
     text-align: center;
     background-color: #6fa8dc;
+    
 }
 #herramientas table{
     color: black;
+    /*centrar tabla "margin: 0 auto;"*/
+    margin: 0 auto;
 }
 #pie_de_pagina{
     text-align: center;
+}
+/*--------------------------------------------------------------*/
+#quienesSomos{
+    display:flex;
+    text-align: justify;
+    
+}
+#somos_id{
+    background-color: black;
+    width: 30%;
+    height: 1px;
+    border-radius: 50%;
+    margin-left: 0px;
+    transform:rotate(1deg);
+}
+#equipo{
+    text-align: center;
+    background-color: #6fa8dc;
+    color: white;
+  
+}
+#equipo #hrequipo{
+    background-color: white;
+    width: 30%;
+    height: 2px;
+    border-radius: 50%;
+    transform:rotate(1deg);
+}
+#equipo h1{
+    margin-bottom: 0px;
+    text-align: center;
+}
+#quienesSomos #tamaño{
+    font-size: 10px;
+    margin-top: 0px;
+}
+#quienesSomos h1{
+    margin-bottom: 0px;
+}
+#empleados h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+#empleados hr{
+    
+    background-color: black;
+    width: 30%;
+    height: 1px;
+    border-radius: 50%;
+    margin-left: 35%;
+    transform:rotate(1deg);
+}
+table{
+    text-align: left;
+    margin: 0 auto;
+}
+#T1 thead{
+    background-color: grey;
+}
+table tbody #color{
+    background-color: lightgray;
 }
