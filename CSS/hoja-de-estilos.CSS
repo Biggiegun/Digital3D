@@ -17,9 +17,11 @@ body{
 }
 #enlaces{
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 #enlaces a{
-    display: inline-block;
     background-color: lightblue;
     color: #000000;
     padding: 0px 20px 0px 20px; 
@@ -27,6 +29,7 @@ body{
     text-decoration: none;
     width: 15%;
     border-radius: 10px;
+    margin: 8px;
 }
 /* evento: hover - evento que se muestra cuando se pasa el puntero sobre el ítem*/
 #enlaces a:hover{
@@ -84,6 +87,17 @@ body{
     background-color: #ff9800;
     color: white;
     margin: 1px;
+}
+#como_puedo_ayudarte .boton_ver{
+background-color:white;
+border: 1px solid black;
+color: #e07923;
+padding: 5px;
+box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+}
+#como_puedo_ayudarte .boton_ver:hover{
+box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+color: #4890cb;
 }
 #como_puedo_ayudarte #servicios .bordeArticulo{
     margin-left: 15px;
@@ -165,4 +179,24 @@ table{
 }
 table tbody #color{
     background-color: lightgray;
+}
+/*------------------------------------------------------------------*/
+#sec_contenedor_lg{
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 90%;
+    height: 1000px;
+   background-color: #cf8f30;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    order: 11;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+.fondo{
+    background-image: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
 }
