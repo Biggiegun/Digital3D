@@ -185,17 +185,19 @@ table tbody #color{
     margin-left: 5%;
     margin-top: 10px;
     width: 90%;
-    height: 1000px;
-   background-color: #cf8f30;
+    height: 800px;
+   background-color: lightyellow;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 img{
+    
     order: 11;
     flex-grow: 1;
-    align-self: flex-start;
+    flex-basis: auto;
+    align-self: center;
 }
 .fondo{
     background-image: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
